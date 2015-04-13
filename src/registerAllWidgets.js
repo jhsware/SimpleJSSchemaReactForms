@@ -1,6 +1,9 @@
 'use strict';
-var TextInputAdapter = require('./form_field_widgets').TextInputAdapter;
+var formFieldWidgets = require('./form_field_widgets');
 
 module.exports = function (adapterRegistry) {
-    adapterRegistry.registerAdapter(TextInputAdapter);
+    adapterRegistry.registerAdapter(formFieldWidgets.TextInputAdapter);
+    adapterRegistry.registerAdapter(formFieldWidgets.IntegerInputAdapter);
+    
+    adapterRegistry.registerAdapter(formFieldWidgets.DropDownAdapter);
 };

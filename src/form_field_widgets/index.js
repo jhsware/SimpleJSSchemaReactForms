@@ -1,11 +1,12 @@
 'use strict';
 
 module.exports = {
-    TextInputAdapter: require('./text_field'),
+    TextInputAdapter: require('./base_fields').TextInputAdapter,
+    IntegerInputAdapter: require('./base_fields').IntegerInputAdapter,
     //CreditCardField: require('./credit_card_field'),
     
     //SelectButtonGroup: require('./select_button_group'),
-    //DropDown: require('./drop_down'),
+    DropDownAdapter: require('./drop_down').DropDownAdapter,
     //DateField: require('./date_field'),
     //SocialImageSelector: require('./social_image_selector'),
     

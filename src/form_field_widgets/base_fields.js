@@ -11,11 +11,22 @@ var ITextField = require('isomorphic-schema').interfaces.ITextField;
 var IInputFieldWidget = require('../interfaces').IInputFieldWidget;
 var TextInputWidget = require('react-formlib').form_field_widgets.TextField;
 
-var Component = createAdapter({
+var TextInputAdapter = createAdapter({
     implements: IInputFieldWidget,
     adapts: ITextField,
     
     ReactComponent: TextInputWidget
 });
 
-module.exports = Component;
+module.exports.TextInputAdapter = TextInputAdapter;
+
+var IIntegerField = require('isomorphic-schema').interfaces.IIntegerField;
+
+var IntegerInputAdapter = createAdapter({
+    implements: IInputFieldWidget,
+    adapts: IIntegerField,
+    
+    ReactComponent: TextInputWidget
+});
+
+module.exports.IntegerInputAdapter = IntegerInputAdapter;
