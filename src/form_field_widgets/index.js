@@ -3,6 +3,7 @@
 module.exports = {
     TextInputAdapter: require('./base_fields').TextInputAdapter,
     IntegerInputAdapter: require('./base_fields').IntegerInputAdapter,
+    TextAreaInputAdapter: require('./text_area_field').TextAreaInputAdapter,
     //CreditCardField: require('./credit_card_field'),
     
     //SelectButtonGroup: require('./select_button_group'),
@@ -14,7 +15,7 @@ module.exports = {
     
     //ListField: require('./list_field'),
     
-    //ActionButton: require('./action_button'),
+    ActionButtonUtility: require('./action_button').ActionButtonUtility,
     
     //FieldError: require('./field_error'),
     //InvariantErrors: require('./invariant_errors'),
