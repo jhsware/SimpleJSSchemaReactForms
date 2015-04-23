@@ -3,6 +3,8 @@
 module.exports = {
     TextInputAdapter: require('./base_fields').TextInputAdapter,
     IntegerInputAdapter: require('./base_fields').IntegerInputAdapter,
+    EmailInputAdapter: require('./email_field').EmailInputAdapter,
+    
     TextAreaInputAdapter: require('./text_area_field').TextAreaInputAdapter,
     //CreditCardField: require('./credit_card_field'),
     
