@@ -11,9 +11,9 @@
     "moment": "^2.8.4",
     "react": "~0.13.1",
     
-    "component-registry": "~0.1.0",
-    "isomorphic-schema": "~0.1.0",
-    "react-formlib": "~0.1.0"
+    "component-registry": "git://github.com/jhsware/SimpleJSRegistry.git#master",
+    "isomorphic-schema": "git://github.com/jhsware/SimpleJSSchema.git#master",
+    "react-formlib": "git://github.com/jhsware/SimpleJSReactForms.git#master"
   },
   "devDependencies": {
     "del": "^1.1.0",
