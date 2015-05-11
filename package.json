@@ -2,8 +2,9 @@
   "name": "schema-react-formlib",
   "version": "0.1.0",
   "description": "Isomorphic Javascript formlib generating react widgets from isomorphic-schema",
-  "engines": {
-    "node": "0.12.x"
+  "repository" : { 
+      "type" : "git",
+      "url" : "https://github.com/jhsware/SimpleJSSchemaReactForms.git"
   },
   "main": "./lib/index.js",
   "dependencies": {
