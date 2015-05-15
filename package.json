@@ -1,7 +1,7 @@
 {
-  "name": "schema-react-formlib",
+  "name": "protoncms-forms-bootstrap",
   "version": "0.1.0",
-  "description": "Isomorphic Javascript formlib generating react widgets from isomorphic-schema",
+  "description": "ProtonCMS -- formlib that can generate forms and input widgets from isomorphic-schema definitions",
   "repository" : { 
       "type" : "git",
       "url" : "https://github.com/jhsware/SimpleJSSchemaReactForms.git"
@@ -11,7 +11,7 @@
     "lodash": "^2.4.1",
     "moment": "^2.8.4",
     "react": "~0.13.1",
-    
+    "protoncms-core": "git://github.com/jhsware/protoncms-core.git#master",
     "component-registry": "git://github.com/jhsware/SimpleJSRegistry.git#master",
     "isomorphic-schema": "git://github.com/jhsware/SimpleJSSchema.git#master",
     "react-formlib": "git://github.com/jhsware/SimpleJSReactForms.git#master"

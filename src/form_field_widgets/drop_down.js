@@ -8,7 +8,7 @@
 var createAdapter = require('component-registry').createAdapter;
 
 var ISelectField = require('isomorphic-schema').interfaces.ISelectField;
-var IInputFieldWidget = require('../interfaces').IInputFieldWidget;
+var IInputFieldWidget = require('protoncms-core').interfaces.IInputFieldWidget;
 var DropDownWidget = require('react-formlib').form_field_widgets.DropDown;
 
 var DropDownAdapter = createAdapter({

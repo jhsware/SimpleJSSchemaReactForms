@@ -8,7 +8,7 @@
 */
 var createUtility = require('component-registry').createUtility;
 
-var IActionButtonWidget = require('../interfaces').IActionButtonWidget;
+var IActionButtonWidget = require('protoncms-core').interfaces.IActionButtonWidget;
 var ActionButtonWidget = require('react-formlib').form_field_widgets.ActionButton;
 
 var ActionButtonUtility = createUtility({

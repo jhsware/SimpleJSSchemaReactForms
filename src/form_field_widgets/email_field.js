@@ -8,7 +8,7 @@
 var createAdapter = require('component-registry').createAdapter;
 
 var IEmailField = require('isomorphic-schema').interfaces.IEmailField;
-var IInputFieldWidget = require('../interfaces').IInputFieldWidget;
+var IInputFieldWidget = require('protoncms-core').interfaces.IInputFieldWidget;
 var TextInputWidget = require('react-formlib').form_field_widgets.TextField;
 
 var EmailInputAdapter = createAdapter({
