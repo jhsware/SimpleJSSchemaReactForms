@@ -1,7 +1,6 @@
 'use strict';
 var registry = require('protoncms-core').registry;
 var formFieldWidgets = require('./form_field_widgets');
-var AutoForm = require('./AutoForm');
 
 module.exports = function () {
     registry.registerAdapter(formFieldWidgets.TextInputAdapter);
@@ -13,8 +12,4 @@ module.exports = function () {
     registry.registerAdapter(formFieldWidgets.DropDownAdapter);
 
     registry.registerUtility(formFieldWidgets.ActionButtonUtility);  
-    
-    registry.registerAdapter(AutoForm.Adapter);
-    registry.registerUtility(AutoForm.Utility);
-      
 }
