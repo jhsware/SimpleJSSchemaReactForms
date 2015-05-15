@@ -12,4 +12,4 @@ var ListInputAdapter = createAdapter({
     ReactComponent: ListInputWidget
 });
 
-module.exports.ListInputAdapter = ListInputAdapter;
+module.exports = ListInputAdapter;
