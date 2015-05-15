@@ -1,10 +1,15 @@
 'use strict';
 
 module.exports = {
+    // Render text input fields
     TextInputAdapter: require('./base_fields').TextInputAdapter,
     IntegerInputAdapter: require('./base_fields').IntegerInputAdapter,
     EmailInputAdapter: require('./email_field').EmailInputAdapter,
     
+    // Render checkbox
+    CheckboxInputAdapter: require('./base_fields').CheckboxInputAdapter,
+    
+    // Render text area
     TextAreaInputAdapter: require('./text_area_field').TextAreaInputAdapter,
     //CreditCardField: require('./credit_card_field'),
     

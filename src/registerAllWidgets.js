@@ -1,11 +1,12 @@
 'use strict';
-var registry = require('protoncms-core').registry;
 var formFieldWidgets = require('./form_field_widgets');
 
-module.exports = function () {
+module.exports = function (registry) {
     registry.registerAdapter(formFieldWidgets.TextInputAdapter);
     registry.registerAdapter(formFieldWidgets.IntegerInputAdapter);
     registry.registerAdapter(formFieldWidgets.EmailInputAdapter);
+    
+    registry.registerAdapter(formFieldWidgets.CheckboxInputAdapter);
 
     registry.registerAdapter(formFieldWidgets.TextAreaInputAdapter);
 

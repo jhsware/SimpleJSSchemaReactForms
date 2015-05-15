@@ -30,3 +30,15 @@ var IntegerInputAdapter = createAdapter({
 });
 
 module.exports.IntegerInputAdapter = IntegerInputAdapter;
+
+var IBoolField = require('isomorphic-schema').interfaces.IBoolField;
+var CheckboxInputWidget = require('react-formlib').form_field_widgets.CheckBoxField;
+
+var CheckboxInputAdapter = createAdapter({
+    implements: IInputFieldWidget,
+    adapts: IBoolField,
+    
+    ReactComponent: CheckboxInputWidget
+});
+
+module.exports.CheckboxInputAdapter = CheckboxInputAdapter;
