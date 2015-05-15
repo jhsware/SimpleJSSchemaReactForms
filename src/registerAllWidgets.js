@@ -9,6 +9,8 @@ module.exports = function (registry) {
     registry.registerAdapter(formFieldWidgets.CheckboxInputAdapter);
 
     registry.registerAdapter(formFieldWidgets.TextAreaInputAdapter);
+    
+    registry.registerAdapter(formFieldWidgets.ListInputAdapter);
 
     registry.registerAdapter(formFieldWidgets.DropDownAdapter);
 

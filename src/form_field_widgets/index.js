@@ -20,7 +20,7 @@ module.exports = {
     
     //TextAreaField: require('./text_area_field'),
     
-    //ListField: require('./list_field'),
+    ListField: require('./list_field'),
     
     ActionButtonUtility: require('./action_button').ActionButtonUtility,
     
