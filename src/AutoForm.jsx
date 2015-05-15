@@ -73,20 +73,17 @@ var FormGenerator = React.createClass({
     }
 });
 
-var Adapter = createAdapter({
+module.exports.Adapter = createAdapter({
     implements: IAutoFormWidget,
     adapts: IProtonObject,
     
     ReactComponent: FormGenerator
 });
 
-registry.registerAdapter(Adapter);
 
-var Utility = createUtility({
+
+module.exports.Utility = createUtility({
     implements: IAutoFormWidget,
     
     ReactComponent: FormGenerator
 });
-
-registry.registerUtility(Utility);
-
