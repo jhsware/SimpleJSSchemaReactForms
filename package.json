@@ -9,10 +9,10 @@
   "main": "./lib/index.js",
   "dependencies": {
     "lodash": "^2.4.1",
-    "moment": "^2.8.4",
-    "react": "~0.13.1",
+    "moment": "^2.8.4"
   },
   "peerDependencies": {
+    "react": "^0.13.0",
     "protoncms-core": "git://github.com/jhsware/protoncms-core.git#master",
     "component-registry": "git://github.com/jhsware/SimpleJSRegistry.git#master",
     "isomorphic-schema": "git://github.com/jhsware/SimpleJSSchema.git#master",
