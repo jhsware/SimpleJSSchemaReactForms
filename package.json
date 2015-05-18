@@ -14,9 +14,9 @@
   "peerDependencies": {
     "react": "^0.13.0",
     "protoncms-core": ">0.1",
-    "component-registry": "git://github.com/jhsware/SimpleJSRegistry.git#master",
-    "isomorphic-schema": "git://github.com/jhsware/SimpleJSSchema.git#master",
-    "react-formlib": "git://github.com/jhsware/SimpleJSReactForms.git#master"
+    "component-registry": ">0.1",
+    "isomorphic-schema": ">0.1",
+    "react-formlib": ">0.1"
   },
   "devDependencies": {
     "del": "^1.1.0",
