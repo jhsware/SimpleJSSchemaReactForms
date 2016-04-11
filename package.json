@@ -1,6 +1,6 @@
 {
   "name": "protoncms-forms-bootstrap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ProtonCMS -- formlib that can generate forms and input widgets from isomorphic-schema definitions",
   "repository" : { 
       "type" : "git",
